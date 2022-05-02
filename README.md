@@ -38,3 +38,24 @@ I prepared some examples of bad commit messages and I explained why they are bad
 
 🔷 **Why it's bad?**
 > According to the previous examples, here we haven't any clear vision about the modifications of codebase! Btw, there is no need to use pronoun at the first of this commit message. Git saves that who is the author of each commit by self and we haven't do a duplicated action!
+
+
+### Neither Long nor Short:
+
+If you want to write a meaningful message for a commit, avoid writing lengthy descriptions. Very summarized texts too! A sign of a good commit message is a suitable length most of the time. Maybe you want to know why we should avoid long/short messages in commit messages? Well, here's an example.
+
+Assume my friend asks me to lend him some money.
+
+❌ `Please lend me money!`
+> It's an example of a short message. When my friend tells it, I ask two pertinent questions: "How much money do you need?" and "When will you get it back?". He could make me clear about them, so there was no need to these questions.
+
+❌ `Hey Ahmad, get on the bus as soon as it arrives at the bus station. Then go to your bank, fill out a form, and then get the money from the bank and lend me $20. I'm going to return it in three weeks.`
+> This is an example of a long message. It's an example of a long message. Don't tell me how I can provide some money! Just tell me your request.
+
+✅ `Ahmad, please lend me 20 dollars. I will return it in 3 weeks.`
+> Perfect! It's that I want to hear!
+
+
+🔑 *The text of your message, must be the gist of your commit.*
+
+🔑 *If you think that you need a long text to tell the gist of your commit, probably you have a big commit that should be separated in 2 or more smaller commits.*
