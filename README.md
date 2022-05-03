@@ -90,3 +90,21 @@ Why is it not necessary to refer to the delete variable? Because it wasn't the p
 I prefer this one:
 
 ✅ `Refactor the 'getUser' function.`
+
+
+### Conceptual Prefixes:
+
+This one is an optional offer for your commit messages but can make them very readable and powerful. According to the added modifications in the codebase in your commit, you can use a suitable and matched prefix for its message. In most cases, prefixes are used at the first of commit messages.
+
+Here is a list of the most usable prefixes that I often see in software teams:
+
+* `[BUGFIX]`: For resolving any bug and issue from the codebase.
+* `[TEST]`: For writing any type of tests (Unit / End-to-End / UserStory / Integration / Regression / ...)
+* `[FEATURE]`: For adding a new feature and implementation
+* `[REFACTOR]`: For improving current codes for any purpose like better readability, performance, etc.
+* `[UPDATE]`: For updating libraries and dependencies, also updating current features by documentation.
+* `[BASE]`: For installing new libraries and dependencies and setting up the infrastructures of the codebase, like configuring the project and its packages.
+
+The above cases are only some offers for you so, there isn't any force to using them. You can have your own!
+
+🔑 *The text of your prefixes can be lowercase. Please follow a fixed rule. For example, if you want to write your prefixes in lowercase, write them all in lowercase forever in the related repository.*
