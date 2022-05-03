@@ -7,7 +7,7 @@ This is everything you need to know about having better Git commit messages.
 
 I listed 10 rules for having a professional commit message.
 
-### Meaningful messages:
+### 1. Meaningful messages:
 
 The first and most important rule for a Git commit message is this! Each commit message must have a complete, meaningful and independent description. Commit message has to be valuable for its readers. As a reader, when I looked at the Git's log of your repository, All the commits messages must be clear for me and I be known about the changes of each commit, just by a simple looking!
 
@@ -40,7 +40,7 @@ I prepared some examples of bad commit messages and I explained why they are bad
 > According to the previous examples, here we haven't any clear vision about the modifications of codebase! Btw, there is no need to use pronoun at the first of this commit message. Git saves that who is the author of each commit by self and we haven't do a duplicated action!
 
 
-### Neither Long nor Short:
+### 2. Neither Long nor Short:
 
 If you want to write a meaningful message for a commit, avoid writing lengthy descriptions. Very summarized texts too! A sign of a good commit message is a suitable length most of the time. Maybe you want to know why we should avoid long/short messages in commit messages? Well, here's an example.
 
@@ -61,7 +61,7 @@ Assume my friend asks me to lend him some money.
 🔑 *If you think that you need a long text to tell the gist of your commit, probably you have a big commit that should be separated in 2 or more smaller commits.*
 
 
-### Use Imperative Mood:
+### 3. Use Imperative Mood:
 
 When you want to write a commit message, suppose you give Git an order. Do not ask or inform Git! Just command directly!
 
@@ -76,7 +76,7 @@ For example, suppose you implemented a function that can transform the character
 ✅ `Implement a function to transform letters to upper case.`
 
 
-### Avoid Writing Details:
+### 4. Avoid Writing Details:
 
 This rule complements the `Neither Long nor Short` rule. No need to write everything and details.
 Remember always, you must tell `What` and `Why` something added/removed/modified in the codebase, not `How`! Also, no need to write the bit or low-priority modifications.
@@ -92,7 +92,7 @@ I prefer this one:
 ✅ `Refactor the 'getUser' function.`
 
 
-### Conceptual Prefixes:
+### 5. Conceptual Prefixes:
 
 This one is an optional offer for your commit messages but can make them very readable and powerful. According to the added modifications in the codebase in your commit, you can use a suitable and matched prefix for its message. In most cases, prefixes are used at the first of commit messages.
 
