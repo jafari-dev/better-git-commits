@@ -59,3 +59,18 @@ Assume my friend asks me to lend him some money.
 🔑 *The text of your message, must be the gist of your commit.*
 
 🔑 *If you think that you need a long text to tell the gist of your commit, probably you have a big commit that should be separated in 2 or more smaller commits.*
+
+
+### Use Imperative Mood:
+
+When you want to write a commit message, suppose you give Git an order. Do not ask or inform Git! Just command directly!
+
+For example, suppose you implemented a function that can transform the characters of a text into the upper case characters.
+
+❌ `Implementing a function that transform letters to upper case.`
+
+❌ `I added a function to transforming letters to upper case.`
+
+❌ `A function to transforming letters to upper case has been added.`
+
+✅ `Implement a function to transform letters to upper case.`
