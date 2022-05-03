@@ -74,3 +74,19 @@ For example, suppose you implemented a function that can transform the character
 ❌ `A function to transforming letters to upper case has been added.`
 
 ✅ `Implement a function to transform letters to upper case.`
+
+
+### Avoid Writing Details:
+
+This rule complements the `Neither Long nor Short` rule. No need to write everything and details.
+Remember always, you must tell `What` and `Why` something added/removed/modified in the codebase, not `How`! Also, no need to write the bit or low-priority modifications.
+
+For example, assume you want to refactor a function named getUser in your codebase. After refactoring it, you notice that the related file has an unused variable inside itself, so you decide to remove it. When you want to commit your changes, there is no need to write something like this:
+
+❌ `Refactor the 'getUser' function and delete an unused variable in its related file.`
+
+Why is it not necessary to refer to the delete variable? Because it wasn't the primary goal of this commit. It was a minor modification that we could fix along with another commit. Of course, you can delete this unused variable in a separate commit, or maybe you want to make a new task for your project to find all unused variables and remove them all in a commit!
+
+I prefer this one:
+
+✅ `Refactor the 'getUser' function.`
