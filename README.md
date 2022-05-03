@@ -108,3 +108,18 @@ Here is a list of the most usable prefixes that I often see in software teams:
 The above cases are only some offers for you so, there isn't any force to using them. You can have your own!
 
 🔑 *The text of your prefixes can be lowercase. Please follow a fixed rule. For example, if you want to write your prefixes in lowercase, write them all in lowercase forever in the related repository.*
+
+
+### 6. Emoji? Please No!
+
+Recently I'm seeing developers use emojis in commit messages. In my opinion, it's not a good practice! Say Why? Because of two reasons:
+
+* That they don't have a clear message.
+* Emojis have specific Unicode, maybe we have a terminal that doesn't support those Unicode, so we can't see any emoji in our terminal.
+
+One of my colleagues disagreed with me about case one. She believed that each emoji has a special meaning, and we can use them in our commit messages. I asked her to give an example. She showed the emoji of a worm (🐛) and said that everybody knows that this emoji refers to a bug! I asked her what should be used for features, refactoring, testing, and ...? She introduced a website to me and said they provide lots of emojis and have a unique meaning for all of them.
+
+It's the address of that website: [Gitmoji](https://gitmoji.dev)
+
+I disagree with my colleague because this website is not a reference for git commits! It's not the product of a famous company with high-level standards! Only one tasteful person has presented some emojis and has written explanations for each of them according to his taste. That and no more!
+One day, if terminals support showing images, I can create a website for using images in the commit messages! For example, I can provide the picture of a scared man and say that refers to a bug! It's not standard :)
