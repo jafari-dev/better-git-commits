@@ -123,3 +123,21 @@ It's the address of that website: [Gitmoji](https://gitmoji.dev)
 
 I disagree with my colleague because this website is not a reference for git commits! It's not the product of a famous company with high-level standards! Only one tasteful person has presented some emojis and has written explanations for each of them according to his taste. That and no more!
 One day, if terminals support showing images, I can create a website for using images in the commit messages! For example, I can provide the picture of a scared man and say that refers to a bug! It's not standard :)
+
+
+### 7. Referral Prefixes:
+
+This case is similar to `Conceptual Prefixes` with a main different: The *Conceptual Prefixes* have a straight and clear messages for their reader and directly say their content. But the *Referral Prefixes* point to a external description, like a task on Jira, a card on Trello, an issue on Gitlab or anything else! *Referral Prefixes* usually be used in the large teams and teams that they used Scrum methodology.
+
+For using a referral prefix, there are some common styles that I list:
+
+* `[#<CARD-NUMBER>]`, `[#<ISSUE-NUMBER>]` or `[#<TASK-NUMBER>]`
+* `[<CARD-NUMBER>]`, `[<ISSUE-NUMBER>]` or `[<TASK-NUMBER>]`
+* `(<CARD-NUMBER>)`, `(<ISSUE-NUMBER>)` or `(<TASK-NUMBER>)`
+
+
+An examples of the above cases:
+
+* `[#217] Resolve the bug of 'fetchUsers' function that causes some users be missed`
+
+> [#217] at the first of this commit can refer to task number 217. It's no matter what tasks manager you are using. You can always use these referral prefixes to point to your tasks/cards/issues.
