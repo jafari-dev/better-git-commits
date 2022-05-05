@@ -156,3 +156,39 @@ I list examples of usage of conceptual prefixes and referral prefixes side each 
 
 
 🔑 *The above examples are just some template and they are not a rule. You can use them in any other styles.*
+
+
+### 8. Separate References to The Codes and Specialized Terms
+
+Sometimes commit messages to contain references to variables, functions, methods, classes, and specialized terms. Whenever you need to write a specialized term or the name of a variable/function/method/class or anything similar, wrap its name in a couple of backticks or quotation marks. It helps the reader detect that the wrapped word is different from others and is a reference to the codebase.
+
+
+❌ `Upgrade Jest and React Testing Library to the latest versions`
+
+✅ `Upgrade 'Jest' and 'React Testing Library' to the latest versions`
+
+❌ `Use for-in loop instead of for-of loop inside calculatePrice function`
+
+✅ `Use 'for-of' loop instead of 'for-in' loop inside the 'calculatePrice' function`
+
+### 9. Extra Tips
+
+* Write your messages just in English! Not any other language.
+
+* Don't put dot (`.`) at the end of your messages.
+
+❌ `Install 'Redux' and 'Redux Toolkit' libraries.`
+
+✅ `Install 'Redux' and 'Redux Toolkit' libraries`
+
+
+* Capitalize the first letter of the commit message.
+
+❌ `write integration test for 'Settings' module`
+
+✅ `Write integration test for 'Settings' module`
+
+
+* Wrap lines at 72 characters. (Always there exist exceptions)
+
+* Don't use urls in the messages.
