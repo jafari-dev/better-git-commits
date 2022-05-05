@@ -141,3 +141,18 @@ An examples of the above cases:
 * `[#217] Resolve the bug of 'fetchUsers' function that causes some users be missed`
 
 > [#217] at the first of this commit can refer to task number 217. It's no matter what tasks manager you are using. You can always use these referral prefixes to point to your tasks/cards/issues.
+
+
+🔑 *You can use both **Conceptual Prefixes** and **Referral Prefixes** together. It relates to your decision.*
+
+I list examples of usage of conceptual prefixes and referral prefixes side each other:
+
+
+* `[#REFACTOR](217) Use Array's methods like 'forEach' and 'map' instead of simple 'for' and 'while' loops in the codebase`
+
+* `[REFACTOR-217] Use Array's methods like 'forEach' and 'map' instead of simple 'for' and 'while' loops in the codebase`
+
+* `[#217][REFACTOR] Use Array's methods like 'forEach' and 'map' instead of simple 'for' and 'while' loops in the codebase`
+
+
+🔑 *The above examples are just some template and they are not a rule. You can use them in any other styles.*
