@@ -192,3 +192,12 @@ Sometimes commit messages to contain references to variables, functions, methods
 * Wrap lines at 72 characters. (Always there exist exceptions)
 
 * Don't use urls in the messages.
+
+### 10. Have a Coherent Log!
+
+If you have a tour in the log of lots of the famous repositories, you can see a lot of differences between commit messages. For example, some of them have prefixes, and some don't. Some of them include emojis, some of them no. Some start with a capitalized letter, some of them no, etc. It usually happens because teams and persons don't follow typical rules. Always have a complete and clear guideline for yourself and your team. By doing it, you can prevent having inconsistent commit messages.
+
+You can use some external tools and linters for double-checking the commits. Linters and these external tools, ensure that no commit message will conflict with the rules you applied. They force you and your team members to follow the rules.
+
+
+**If this repository helped you, don't forgive getting a star ;)**
