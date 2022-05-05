@@ -17,7 +17,7 @@ I prepared some examples of bad commit messages and I explained why they are bad
 ❌ `First commit`
 
 🔷 **Why it's bad?**
-> It's not important for the reader to be known about the number of commit in its message. Because he/she can be known about it, by has a looking to the Git's log? Also he/she couldn't have any idea about the what happen's in the codebase in this commit!
+> It's not important for the reader to be known about the number of commit in its message. Because he/she can be known about it, by has a looking to the Git's log. Also he/she couldn't have any idea about the what happen's in the codebase in this commit!
 
 ❌ `Add some codes`
 
@@ -27,7 +27,7 @@ I prepared some examples of bad commit messages and I explained why they are bad
 ❌ `Refactoring and cleaning codes`
 
 🔷 **Why it's bad?**
-> How can I be informed that which section of the codebase had been modified? Or how can I guess what type of refactoring had been applied on codebase? You commit message have to include the answer of there questions in self!
+> How can I be informed that which section of the codebase had been modified? Or how can I guess what type of refactoring had been applied on codebase? Your commit message have to include the answer of these questions in self!
 
 ❌ `Bug resolved`
 
@@ -104,6 +104,7 @@ Here is a list of the most usable prefixes that I often see in software teams:
 * `[REFACTOR]`: For improving current codes for any purpose like better readability, performance, etc.
 * `[UPDATE]`: For updating libraries and dependencies, also updating current features by documentation.
 * `[BASE]`: For installing new libraries and dependencies and setting up the infrastructures of the codebase, like configuring the project and its packages.
+* `[DOCS]`: For adding or modifying the documentations.
 
 The above cases are only some offers for you so, there isn't any force to using them. You can have your own!
 
