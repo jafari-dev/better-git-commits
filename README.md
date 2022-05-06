@@ -17,7 +17,11 @@ I prepared some examples of bad commit messages and I explained why they are bad
 ❌ `First commit`
 
 🔷 **Why it's bad?**
-> It's not important for the reader to be known about the number of commit in its message. Because he/she can be known about it, by has a looking to the Git's log. Also he/she couldn't have any idea about the what happen's in the codebase in this commit!
+> It's not important for the reader to known about the number of commits in the commit message. Because he/she can just check Git logs. 
+> you should inform the reader that exactly what happened
+> 
+✅ git commit -m 'feat: initialize project and download project dependencies'
+
 
 ❌ `Add some codes`
 
