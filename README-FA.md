@@ -66,7 +66,7 @@
 خب میبینید که چقدر خسته کننده و غیر ضروری بوده نحوه درخواستش. لازم نبود بگه چطوری پولش رو جور کنم دیگه در اون حد بلدم!
 
 
-✅ `Ahmad, please lend me 20 dollars. I will return it in 3 weeks.`
+✅ `Ahmad, please lend me 20 dollars. I will return it in 3 weeks`
 
 خب اینم مثال آدمیزادی و درست و درمون. مختصر و کوتاهه، ولی جای سوال خاصی باقی نمیمونه.
 
@@ -98,7 +98,7 @@
 
 ترجمه مثال بالا: تابعی اضافه شد که حروف کوچیک رو به بزرگ تبدیل میکنه.
 
-✅ `Implement a function to transform letters to upper case.`
+✅ `Implement a function to transform letters to upper case`
 
 ترجمه مثال بالا: تابعی پیاده‌سازی کن که حروف کوچیک رو به بزرگ تبدیل میکنه.
 
@@ -115,7 +115,7 @@
 
 خب از بحث اصلی دور نشیم. توی مثالی که زدم، من این کامیت مسیج رو ترجیح میدم به کامیت مسیج بالایی:
 
-✅ `Refactor the 'getUser' function.`
+✅ `Refactor the 'getUser' function`
 
 
 ### ۵. پیشوندهای مفهومی
